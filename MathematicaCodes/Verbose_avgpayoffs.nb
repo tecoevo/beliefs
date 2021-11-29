@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    145434,       3431]
-NotebookOptionsPosition[    139947,       3337]
-NotebookOutlinePosition[    140416,       3356]
-CellTagsIndexPosition[    140373,       3353]
+NotebookDataLength[    158755,       3695]
+NotebookOptionsPosition[    153361,       3602]
+NotebookOutlinePosition[    153830,       3621]
+CellTagsIndexPosition[    153787,       3618]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -123,7 +123,8 @@ Cell[BoxData[{
     SubscriptBox["x", "sh2"], "+", 
     SubscriptBox["x", "ss2"]}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.751794370671702*^9, 3.751794401411396*^9}},
- CellLabel->"In[1]:=",ExpressionUUID->"ad970db9-1614-4e37-997f-cd92de5e789f"],
+ CellLabel->
+  "In[435]:=",ExpressionUUID->"ad970db9-1614-4e37-997f-cd92de5e789f"],
 
 Cell["\<\
 Let us define the strategies and give them colors - This is how we will \
@@ -162,7 +163,8 @@ Cell[BoxData[{
   ";"}]}], "Input",
  CellChangeTimes->{{3.770359718905463*^9, 3.770359833194272*^9}, {
   3.780761216569627*^9, 3.780761217214808*^9}},
- CellLabel->"In[3]:=",ExpressionUUID->"fb155fde-238e-4f29-99c5-9f752a2d13d7"],
+ CellLabel->
+  "In[437]:=",ExpressionUUID->"fb155fde-238e-4f29-99c5-9f752a2d13d7"],
 
 Cell[CellGroupData[{
 
@@ -207,16 +209,18 @@ Cell[BoxData[
   3.8050328565723248`*^9}, {3.805032972972584*^9, 3.8050331386430798`*^9}, {
   3.805033728618884*^9, 3.8050337318728533`*^9}},
  CellLabel->
-  "In[134]:=",ExpressionUUID->"562b925e-fc91-4df0-bfc4-594f32f231db"],
+  "In[439]:=",ExpressionUUID->"562b925e-fc91-4df0-bfc4-594f32f231db"],
 
 Cell[BoxData[
  GraphicsBox[{{}, {}, 
-   DynamicModuleBox[{DynamicChart`click$56888$56980 = False, 
-    DynamicChart`click$56894$56980 = False, DynamicChart`click$56900$56980 = 
-    False, DynamicChart`click$56906$56980 = False, 
-    DynamicChart`click$56912$56980 = False, DynamicChart`click$56918$56980 = 
-    False, DynamicChart`click$56924$56980 = False, 
-    DynamicChart`click$56930$56980 = False}, {
+   DynamicModuleBox[{DynamicChart`click$143909$144001 = False, 
+    DynamicChart`click$143915$144001 = False, 
+    DynamicChart`click$143921$144001 = False, 
+    DynamicChart`click$143927$144001 = False, 
+    DynamicChart`click$143933$144001 = False, 
+    DynamicChart`click$143939$144001 = False, 
+    DynamicChart`click$143945$144001 = False, 
+    DynamicChart`click$143951$144001 = False}, {
      {RGBColor[0.5, 0.5, 1.], EdgeForm[{GrayLevel[0], Opacity[0.5]}], {{{}, {
          {RGBColor[
           0.6980392156862745, 0.13333333333333333`, 0.13333333333333333`], 
@@ -271,15 +275,15 @@ Cell[BoxData[
              
              EventHandlerTag[{
               "MouseClicked" :> 
-               FEPrivate`Set[DynamicChart`click$56888$56980, 
-                 FEPrivate`Not[DynamicChart`click$56888$56980]], 
+               FEPrivate`Set[DynamicChart`click$143909$144001, 
+                 FEPrivate`Not[DynamicChart`click$143909$144001]], 
                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
                True}]], Dynamic[
             FEPrivate`If[
-             DynamicChart`click$56888$56980, {{{1., 0.}, {0., 
+             DynamicChart`click$143909$144001, {{{1., 0.}, {0., 
                1.}}, {-0.1847759065022573, 0.07653668647301798}}, {{1, 0}, {0,
                1}}, {{1, 0}, {0, 1}}], 
-             TrackedSymbols :> {DynamicChart`click$56888$56980}]],
+             TrackedSymbols :> {DynamicChart`click$143909$144001}]],
            "DelayedClickEffect"]}, 
          {RGBColor[1., 0.27058823529411763`, 0.00392156862745098], EdgeForm[{
           GrayLevel[0], Opacity[0.5]}], 
@@ -331,15 +335,15 @@ Cell[BoxData[
              
              EventHandlerTag[{
               "MouseClicked" :> 
-               FEPrivate`Set[DynamicChart`click$56894$56980, 
-                 FEPrivate`Not[DynamicChart`click$56894$56980]], 
+               FEPrivate`Set[DynamicChart`click$143915$144001, 
+                 FEPrivate`Not[DynamicChart`click$143915$144001]], 
                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
                True}]], Dynamic[
             FEPrivate`If[
-             DynamicChart`click$56894$56980, {{{1., 0.}, {0., 
+             DynamicChart`click$143915$144001, {{{1., 0.}, {0., 
                1.}}, {-0.07653668647301798, 0.1847759065022573}}, {{1, 0}, {0,
                1}}, {{1, 0}, {0, 1}}], 
-             TrackedSymbols :> {DynamicChart`click$56894$56980}]],
+             TrackedSymbols :> {DynamicChart`click$143915$144001}]],
            "DelayedClickEffect"]}, 
          {RGBColor[
           0.8627450980392157, 0.0784313725490196, 0.23529411764705882`], 
@@ -357,6 +361,7 @@ Cell[BoxData[
                     GrayLevel[0.5], 
                     AbsoluteThickness[2.5], 
                     Opacity[0.66]}], {}, {}], 
+                    
                     PolygonBox[{{1.4142135623730951`, 1.414213562373095}, {
                     1.2687865683272912`, 1.5460209067254738`}, {
                     1.1111404660392046`, 1.6629392246050902`}, {
@@ -390,15 +395,15 @@ Cell[BoxData[
              
              EventHandlerTag[{
               "MouseClicked" :> 
-               FEPrivate`Set[DynamicChart`click$56900$56980, 
-                 FEPrivate`Not[DynamicChart`click$56900$56980]], 
+               FEPrivate`Set[DynamicChart`click$143921$144001, 
+                 FEPrivate`Not[DynamicChart`click$143921$144001]], 
                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
                True}]], Dynamic[
             FEPrivate`If[
-             DynamicChart`click$56900$56980, {{{1., 0.}, {0., 1.}}, {
+             DynamicChart`click$143921$144001, {{{1., 0.}, {0., 1.}}, {
                0.07653668647301798, 0.1847759065022573}}, {{1, 0}, {0, 1}}, {{
               1, 0}, {0, 1}}], 
-             TrackedSymbols :> {DynamicChart`click$56900$56980}]],
+             TrackedSymbols :> {DynamicChart`click$143921$144001}]],
            "DelayedClickEffect"]}, 
          {RGBColor[0., 0.7490196078431373, 0.7490196078431373], EdgeForm[{
           GrayLevel[0], Opacity[0.5]}], 
@@ -449,15 +454,15 @@ Cell[BoxData[
              
              EventHandlerTag[{
               "MouseClicked" :> 
-               FEPrivate`Set[DynamicChart`click$56906$56980, 
-                 FEPrivate`Not[DynamicChart`click$56906$56980]], 
+               FEPrivate`Set[DynamicChart`click$143927$144001, 
+                 FEPrivate`Not[DynamicChart`click$143927$144001]], 
                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
                True}]], Dynamic[
             FEPrivate`If[
-             DynamicChart`click$56906$56980, {{{1., 0.}, {0., 1.}}, {
+             DynamicChart`click$143927$144001, {{{1., 0.}, {0., 1.}}, {
                0.1847759065022573, 0.07653668647301795}}, {{1, 0}, {0, 1}}, {{
               1, 0}, {0, 1}}], 
-             TrackedSymbols :> {DynamicChart`click$56906$56980}]],
+             TrackedSymbols :> {DynamicChart`click$143927$144001}]],
            "DelayedClickEffect"]}, 
          {RGBColor[0.00784313725490196, 0., 0.5450980392156862], EdgeForm[{
           GrayLevel[0], Opacity[0.5]}], 
@@ -507,15 +512,15 @@ Cell[BoxData[
              
              EventHandlerTag[{
               "MouseClicked" :> 
-               FEPrivate`Set[DynamicChart`click$56912$56980, 
-                 FEPrivate`Not[DynamicChart`click$56912$56980]], 
+               FEPrivate`Set[DynamicChart`click$143933$144001, 
+                 FEPrivate`Not[DynamicChart`click$143933$144001]], 
                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
                True}]], Dynamic[
             FEPrivate`If[
-             DynamicChart`click$56912$56980, {{{1., 0.}, {0., 1.}}, {
+             DynamicChart`click$143933$144001, {{{1., 0.}, {0., 1.}}, {
                0.1847759065022573, -0.07653668647301795}}, {{1, 0}, {0, 
               1}}, {{1, 0}, {0, 1}}], 
-             TrackedSymbols :> {DynamicChart`click$56912$56980}]],
+             TrackedSymbols :> {DynamicChart`click$143933$144001}]],
            "DelayedClickEffect"]}, 
          {RGBColor[0., 0.5450980392156862, 0.5450980392156862], EdgeForm[{
           GrayLevel[0], Opacity[0.5]}], 
@@ -551,6 +556,7 @@ Cell[BoxData[
                     0.5852709660483849, -2.9423558412096913`}, {
                     0.2940514209886823, -2.9855541800165906`}, {
                     1.8369701987210297`*^-16, -3.}}]},
+                   
                    ImageSizeCache->{{265.7606933090101, 444.2393066909899}, {
                     106.7606933090101, 242.2393066909899}}],
                   "DelayedMouseEffectStyle"], {}},
@@ -565,15 +571,15 @@ Cell[BoxData[
              
              EventHandlerTag[{
               "MouseClicked" :> 
-               FEPrivate`Set[DynamicChart`click$56918$56980, 
-                 FEPrivate`Not[DynamicChart`click$56918$56980]], 
+               FEPrivate`Set[DynamicChart`click$143939$144001, 
+                 FEPrivate`Not[DynamicChart`click$143939$144001]], 
                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
                True}]], Dynamic[
             FEPrivate`If[
-             DynamicChart`click$56918$56980, {{{1., 0.}, {0., 1.}}, {
+             DynamicChart`click$143939$144001, {{{1., 0.}, {0., 1.}}, {
                0.07653668647301798, -0.1847759065022573}}, {{1, 0}, {0, 
               1}}, {{1, 0}, {0, 1}}], 
-             TrackedSymbols :> {DynamicChart`click$56918$56980}]],
+             TrackedSymbols :> {DynamicChart`click$143939$144001}]],
            "DelayedClickEffect"]}, 
          {RGBColor[
           0.39215686274509803`, 0.5843137254901961, 0.9294117647058824], 
@@ -597,8 +603,8 @@ Cell[BoxData[
 -1.662939224605091}, {-0.9427934736519954, -1.76384252869671}, \
 {-0.7653668647301795, -1.8477590650225735`}, {-0.5805693545089244, \
 -1.9138806714644179`}, {-0.3901806440322564, -1.9615705608064609`}, \
-{-0.19603428065912132`, -1.9903694533443939`}, {1.2246467991473532`*^-16, -2.}
-                    , {
+{-0.19603428065912132`, -1.9903694533443939`}, {
+                    1.2246467991473532`*^-16, -2.}, {
                     1.8369701987210297`*^-16, -3.}, {-0.294051420988682, \
 -2.9855541800165906`}, {-0.5852709660483846, -2.9423558412096913`}, \
 {-0.8708540317633866, -2.8708210071966267`}, {-1.1480502970952693`, \
@@ -620,15 +626,15 @@ Cell[BoxData[
              
              EventHandlerTag[{
               "MouseClicked" :> 
-               FEPrivate`Set[DynamicChart`click$56924$56980, 
-                 FEPrivate`Not[DynamicChart`click$56924$56980]], 
+               FEPrivate`Set[DynamicChart`click$143945$144001, 
+                 FEPrivate`Not[DynamicChart`click$143945$144001]], 
                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
                True}]], Dynamic[
             FEPrivate`If[
-             DynamicChart`click$56924$56980, {{{1., 0.}, {0., 
+             DynamicChart`click$143945$144001, {{{1., 0.}, {0., 
                1.}}, {-0.07653668647301798, -0.1847759065022573}}, {{1, 0}, {
               0, 1}}, {{1, 0}, {0, 1}}], 
-             TrackedSymbols :> {DynamicChart`click$56924$56980}]],
+             TrackedSymbols :> {DynamicChart`click$143945$144001}]],
            "DelayedClickEffect"]}, 
          {RGBColor[
           0.9411764705882353, 0.5019607843137255, 0.5019607843137255], 
@@ -676,15 +682,15 @@ Cell[BoxData[
              
              EventHandlerTag[{
               "MouseClicked" :> 
-               FEPrivate`Set[DynamicChart`click$56930$56980, 
-                 FEPrivate`Not[DynamicChart`click$56930$56980]], 
+               FEPrivate`Set[DynamicChart`click$143951$144001, 
+                 FEPrivate`Not[DynamicChart`click$143951$144001]], 
                PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
                True}]], Dynamic[
             FEPrivate`If[
-             DynamicChart`click$56930$56980, {{{1., 0.}, {0., 
+             DynamicChart`click$143951$144001, {{{1., 0.}, {0., 
                1.}}, {-0.1847759065022573, -0.07653668647301798}}, {{1, 0}, {
               0, 1}}, {{1, 0}, {0, 1}}], 
-             TrackedSymbols :> {DynamicChart`click$56930$56980}]],
+             TrackedSymbols :> {DynamicChart`click$143951$144001}]],
            "DelayedClickEffect"]}}}, {}}, {}}, {{{
         TagBox[GeometricTransformationBox[
           TagBox[
@@ -711,14 +717,16 @@ Cell[BoxData[
               Rational[1, 8], {}], "Tooltip"]& ],
            
            EventHandlerTag[{
-            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$56888$56980, 
-               FEPrivate`Not[DynamicChart`click$56888$56980]], PassEventsDown -> 
-             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            "MouseClicked" :> 
+             FEPrivate`Set[DynamicChart`click$143909$144001, 
+               FEPrivate`Not[DynamicChart`click$143909$144001]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
           FEPrivate`If[
-           DynamicChart`click$56888$56980, {{{1., 0.}, {0., 
+           DynamicChart`click$143909$144001, {{{1., 0.}, {0., 
              1.}}, {-0.1847759065022573, 0.07653668647301798}}, {{1, 0}, {0, 
             1}}, {{1, 0}, {0, 1}}], 
-           TrackedSymbols :> {DynamicChart`click$56888$56980}]],
+           TrackedSymbols :> {DynamicChart`click$143909$144001}]],
          "DelayedClickEffect"], 
         TagBox[GeometricTransformationBox[
           TagBox[
@@ -745,14 +753,16 @@ Cell[BoxData[
               Rational[1, 8], {}], "Tooltip"]& ],
            
            EventHandlerTag[{
-            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$56894$56980, 
-               FEPrivate`Not[DynamicChart`click$56894$56980]], PassEventsDown -> 
-             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            "MouseClicked" :> 
+             FEPrivate`Set[DynamicChart`click$143915$144001, 
+               FEPrivate`Not[DynamicChart`click$143915$144001]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
           FEPrivate`If[
-           DynamicChart`click$56894$56980, {{{1., 0.}, {0., 
+           DynamicChart`click$143915$144001, {{{1., 0.}, {0., 
              1.}}, {-0.07653668647301798, 0.1847759065022573}}, {{1, 0}, {0, 
             1}}, {{1, 0}, {0, 1}}], 
-           TrackedSymbols :> {DynamicChart`click$56894$56980}]],
+           TrackedSymbols :> {DynamicChart`click$143915$144001}]],
          "DelayedClickEffect"], 
         TagBox[GeometricTransformationBox[
           TagBox[
@@ -779,14 +789,16 @@ Cell[BoxData[
               Rational[1, 8], {}], "Tooltip"]& ],
            
            EventHandlerTag[{
-            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$56900$56980, 
-               FEPrivate`Not[DynamicChart`click$56900$56980]], PassEventsDown -> 
-             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            "MouseClicked" :> 
+             FEPrivate`Set[DynamicChart`click$143921$144001, 
+               FEPrivate`Not[DynamicChart`click$143921$144001]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
           FEPrivate`If[
-           DynamicChart`click$56900$56980, {{{1., 0.}, {0., 1.}}, {
+           DynamicChart`click$143921$144001, {{{1., 0.}, {0., 1.}}, {
              0.07653668647301798, 0.1847759065022573}}, {{1, 0}, {0, 1}}, {{1,
              0}, {0, 1}}], 
-           TrackedSymbols :> {DynamicChart`click$56900$56980}]],
+           TrackedSymbols :> {DynamicChart`click$143921$144001}]],
          "DelayedClickEffect"], 
         TagBox[GeometricTransformationBox[
           TagBox[
@@ -813,14 +825,16 @@ Cell[BoxData[
               Rational[1, 8], {}], "Tooltip"]& ],
            
            EventHandlerTag[{
-            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$56906$56980, 
-               FEPrivate`Not[DynamicChart`click$56906$56980]], PassEventsDown -> 
-             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            "MouseClicked" :> 
+             FEPrivate`Set[DynamicChart`click$143927$144001, 
+               FEPrivate`Not[DynamicChart`click$143927$144001]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
           FEPrivate`If[
-           DynamicChart`click$56906$56980, {{{1., 0.}, {0., 1.}}, {
+           DynamicChart`click$143927$144001, {{{1., 0.}, {0., 1.}}, {
              0.1847759065022573, 0.07653668647301795}}, {{1, 0}, {0, 1}}, {{1,
              0}, {0, 1}}], 
-           TrackedSymbols :> {DynamicChart`click$56906$56980}]],
+           TrackedSymbols :> {DynamicChart`click$143927$144001}]],
          "DelayedClickEffect"], 
         TagBox[GeometricTransformationBox[
           TagBox[
@@ -847,14 +861,16 @@ Cell[BoxData[
               Rational[1, 8], {}], "Tooltip"]& ],
            
            EventHandlerTag[{
-            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$56912$56980, 
-               FEPrivate`Not[DynamicChart`click$56912$56980]], PassEventsDown -> 
-             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            "MouseClicked" :> 
+             FEPrivate`Set[DynamicChart`click$143933$144001, 
+               FEPrivate`Not[DynamicChart`click$143933$144001]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
           FEPrivate`If[
-           DynamicChart`click$56912$56980, {{{1., 0.}, {0., 1.}}, {
+           DynamicChart`click$143933$144001, {{{1., 0.}, {0., 1.}}, {
              0.1847759065022573, -0.07653668647301795}}, {{1, 0}, {0, 1}}, {{
             1, 0}, {0, 1}}], 
-           TrackedSymbols :> {DynamicChart`click$56912$56980}]],
+           TrackedSymbols :> {DynamicChart`click$143933$144001}]],
          "DelayedClickEffect"], 
         TagBox[GeometricTransformationBox[
           TagBox[
@@ -881,14 +897,16 @@ Cell[BoxData[
               Rational[1, 8], {}], "Tooltip"]& ],
            
            EventHandlerTag[{
-            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$56918$56980, 
-               FEPrivate`Not[DynamicChart`click$56918$56980]], PassEventsDown -> 
-             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            "MouseClicked" :> 
+             FEPrivate`Set[DynamicChart`click$143939$144001, 
+               FEPrivate`Not[DynamicChart`click$143939$144001]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
           FEPrivate`If[
-           DynamicChart`click$56918$56980, {{{1., 0.}, {0., 1.}}, {
+           DynamicChart`click$143939$144001, {{{1., 0.}, {0., 1.}}, {
              0.07653668647301798, -0.1847759065022573}}, {{1, 0}, {0, 1}}, {{
             1, 0}, {0, 1}}], 
-           TrackedSymbols :> {DynamicChart`click$56918$56980}]],
+           TrackedSymbols :> {DynamicChart`click$143939$144001}]],
          "DelayedClickEffect"], 
         TagBox[GeometricTransformationBox[
           TagBox[
@@ -915,14 +933,16 @@ Cell[BoxData[
               Rational[1, 8], {}], "Tooltip"]& ],
            
            EventHandlerTag[{
-            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$56924$56980, 
-               FEPrivate`Not[DynamicChart`click$56924$56980]], PassEventsDown -> 
-             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            "MouseClicked" :> 
+             FEPrivate`Set[DynamicChart`click$143945$144001, 
+               FEPrivate`Not[DynamicChart`click$143945$144001]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
           FEPrivate`If[
-           DynamicChart`click$56924$56980, {{{1., 0.}, {0., 
+           DynamicChart`click$143945$144001, {{{1., 0.}, {0., 
              1.}}, {-0.07653668647301798, -0.1847759065022573}}, {{1, 0}, {0, 
             1}}, {{1, 0}, {0, 1}}], 
-           TrackedSymbols :> {DynamicChart`click$56924$56980}]],
+           TrackedSymbols :> {DynamicChart`click$143945$144001}]],
          "DelayedClickEffect"], 
         TagBox[GeometricTransformationBox[
           TagBox[
@@ -936,8 +956,9 @@ Cell[BoxData[
                   BackFaceColor->GrayLevel[1],
                   GraphicsColor->GrayLevel[1],
                   FontSize->14,
-                  FontColor->GrayLevel[1]], 
-                 {-2.309698831278217, -0.9567085809127246}]}},
+                  
+                  FontColor->GrayLevel[
+                   1]], {-2.309698831278217, -0.9567085809127246}]}},
               StatusArea[#, 
                Rational[1, 8]]& ,
               TagBoxNote->"1/8"],
@@ -948,14 +969,16 @@ Cell[BoxData[
               Rational[1, 8], {}], "Tooltip"]& ],
            
            EventHandlerTag[{
-            "MouseClicked" :> FEPrivate`Set[DynamicChart`click$56930$56980, 
-               FEPrivate`Not[DynamicChart`click$56930$56980]], PassEventsDown -> 
-             True, Method -> "Preemptive", PassEventsUp -> True}]], Dynamic[
+            "MouseClicked" :> 
+             FEPrivate`Set[DynamicChart`click$143951$144001, 
+               FEPrivate`Not[DynamicChart`click$143951$144001]], 
+             PassEventsDown -> True, Method -> "Preemptive", PassEventsUp -> 
+             True}]], Dynamic[
           FEPrivate`If[
-           DynamicChart`click$56930$56980, {{{1., 0.}, {0., 
+           DynamicChart`click$143951$144001, {{{1., 0.}, {0., 
              1.}}, {-0.1847759065022573, -0.07653668647301798}}, {{1, 0}, {0, 
             1}}, {{1, 0}, {0, 1}}], 
-           TrackedSymbols :> {DynamicChart`click$56930$56980}]],
+           TrackedSymbols :> {DynamicChart`click$143951$144001}]],
          "DelayedClickEffect"]}, {}}, {}}, {}, {}},
     DynamicModuleValues:>{}], {{}, {}}, {{{}, {}, {}, {}}, {}}},
   ContentSelectable->False,
@@ -969,10 +992,14 @@ Cell[BoxData[
    3.8050327705185537`*^9}, 3.805032856923072*^9, {3.805032980956867*^9, 
    3.805033036042283*^9}, {3.8050330849960327`*^9, 3.8050331389730873`*^9}, 
    3.805033732795062*^9, 3.8050346295298853`*^9, 3.805035083591762*^9, 
-   3.805035316210493*^9},
+   3.805035316210493*^9, {3.847103619683305*^9, 3.847103668576971*^9}, 
+   3.847104231542429*^9, 3.847104385471242*^9, 3.847104520078279*^9, 
+   3.847104669833037*^9, {3.847104804016056*^9, 3.84710481690662*^9}, 
+   3.847105867953322*^9, 3.847105914706141*^9, 3.847105963322484*^9, 
+   3.8471062670066347`*^9},
  CellLabel->
-  "Out[134]=",ExpressionUUID->"110ca4fa-94f6-4b25-8679-1e88d12dfeb9"]
-}, {2}]],
+  "Out[439]=",ExpressionUUID->"0d449558-0997-499b-98f4-da2580c298f6"]
+}, Open  ]],
 
 Cell["\<\
 Group size if G of which M is the minimum number of stag hunters required to \
@@ -1029,8 +1056,13 @@ Cell[BoxData[
    3.8045899303449917`*^9}, 3.804591865111478*^9, {3.804591898590476*^9, 
    3.804591901077364*^9}, 3.804591934103298*^9, 3.80459213390234*^9, {
    3.805011290575116*^9, 3.8050113099987783`*^9}, 3.805011361907652*^9, 
-   3.844853836700712*^9, 3.844853989834065*^9},
- CellLabel->"In[29]:=",ExpressionUUID->"0b3b39dc-7bc0-4f6e-93e8-4d940ff52612"]
+   3.844853836700712*^9, 3.844853989834065*^9, {3.847103634621193*^9, 
+   3.847103663934992*^9}, 3.847104229296884*^9, 3.847104379259903*^9, 
+   3.8471045188580103`*^9, 3.847104667853112*^9, {3.8471048005188913`*^9, 
+   3.847104814960619*^9}, 3.847105909967889*^9, 3.847105961718183*^9, 
+   3.8471062654706783`*^9},
+ CellLabel->
+  "In[440]:=",ExpressionUUID->"0b3b39dc-7bc0-4f6e-93e8-4d940ff52612"]
 }, Open  ]]
 }, Open  ]],
 
@@ -1055,16 +1087,17 @@ Cell[BoxData[
    RowBox[{"f1", "[", 
     RowBox[{"k_", ",", "state_"}], "]"}], ":=", 
    RowBox[{"(*", "0.5", "*)"}], 
-   RowBox[{"(*", 
-    FractionBox[
-     RowBox[{"k", "+", 
-      RowBox[{"KroneckerDelta", "[", 
-       RowBox[{"state", ",", "1"}], "]"}]}], "G"], "*)"}], 
+   FractionBox[
+    RowBox[{"k", "+", 
+     RowBox[{"KroneckerDelta", "[", 
+      RowBox[{"state", ",", "1"}], "]"}]}], "G"]}], 
+  RowBox[{"(*", 
    RowBox[{"Round", "[", 
     FractionBox[
      RowBox[{"k", "+", 
       RowBox[{"KroneckerDelta", "[", 
-       RowBox[{"state", ",", "1"}], "]"}]}], "G"], "]"}]}], ";"}]], "Input",
+       RowBox[{"state", ",", "1"}], "]"}]}], "G"], "]"}], "*)"}], 
+  ";"}]], "Input",
  CellChangeTimes->{{3.751796296456056*^9, 3.751796335330299*^9}, {
    3.773650110079949*^9, 3.773650178370056*^9}, {3.780654486830372*^9, 
    3.780654525749591*^9}, {3.780656136066681*^9, 3.780656140144622*^9}, {
@@ -1080,8 +1113,9 @@ Cell[BoxData[
    3.8045921116205187`*^9, 3.804592140812949*^9}, {3.80501125072403*^9, 
    3.8050112532999687`*^9}, {3.805011337891699*^9, 3.805011340927938*^9}, {
    3.805035079882468*^9, 3.805035082421452*^9}, {3.805035312078554*^9, 
-   3.8050353147423983`*^9}},
- CellLabel->"In[6]:=",ExpressionUUID->"6eb38568-c4bb-4ed1-aae1-b9c38250862d"],
+   3.8050353147423983`*^9}, {3.8471058608410254`*^9, 3.847105864711096*^9}},
+ CellLabel->
+  "In[441]:=",ExpressionUUID->"6eb38568-c4bb-4ed1-aae1-b9c38250862d"],
 
 Cell[TextData[{
  "The function ",
@@ -1120,7 +1154,8 @@ Cell[BoxData[
   3.7517965471671953`*^9}, {3.751797217186557*^9, 3.75179722198638*^9}, {
   3.751798138809293*^9, 3.7517981450093737`*^9}, {3.773650123486731*^9, 
   3.7736501334264812`*^9}, {3.7736501893068542`*^9, 3.7736501903944607`*^9}},
- CellLabel->"In[7]:=",ExpressionUUID->"8be33cf1-0363-4e03-8e66-56e2458cd8bd"],
+ CellLabel->
+  "In[442]:=",ExpressionUUID->"8be33cf1-0363-4e03-8e66-56e2458cd8bd"],
 
 Cell["\<\
 This function returns \[OpenCurlyDoubleQuote]Hare\[CloseCurlyDoubleQuote] if \
@@ -1252,7 +1287,8 @@ Cell[BoxData[
    3.751915707771986*^9}, {3.751915753453233*^9, 3.751915753929838*^9}, {
    3.767067465474908*^9, 3.767067467626343*^9}, {3.77365013774475*^9, 
    3.773650139873885*^9}, {3.773650409043826*^9, 3.773650409781691*^9}},
- CellLabel->"In[8]:=",ExpressionUUID->"c7e2772b-0648-4e79-b272-87c3935e67ff"]
+ CellLabel->
+  "In[443]:=",ExpressionUUID->"c7e2772b-0648-4e79-b272-87c3935e67ff"]
 }, Closed]],
 
 Cell[CellGroupData[{
@@ -1385,7 +1421,8 @@ Cell[BoxData[
    3.804586141198441*^9}, {3.804589590842895*^9, 3.8045896070471363`*^9}, {
    3.8045905399210863`*^9, 3.804590541407732*^9}, {3.804590736239451*^9, 
    3.804590739438871*^9}},
- CellLabel->"In[9]:=",ExpressionUUID->"8c3f8803-bf07-41f6-8a73-20de96121ca9"],
+ CellLabel->
+  "In[444]:=",ExpressionUUID->"8c3f8803-bf07-41f6-8a73-20de96121ca9"],
 
 Cell["The average payoffs are stored in a table called payoffstab:", "Text",
  CellChangeTimes->{{3.773650519651187*^9, 3.773650556088472*^9}, {
@@ -1430,7 +1467,8 @@ Cell[BoxData[
    3.751797248629057*^9, 3.751797287072732*^9}, {3.7517987774860077`*^9, 
    3.7517987823707867`*^9}, 3.7580391920687237`*^9, {3.7586448146621437`*^9, 
    3.758644840590086*^9}},
- CellLabel->"In[10]:=",ExpressionUUID->"2a1067be-9250-4055-bc46-aee0de5926e0"],
+ CellLabel->
+  "In[445]:=",ExpressionUUID->"2a1067be-9250-4055-bc46-aee0de5926e0"],
 
 Cell[TextData[{
  "In the following we write down the matrix which gives the average payoff of \
@@ -1567,7 +1605,8 @@ Cell[BoxData[{
    3.766812369328541*^9, 3.766812430479105*^9}, {3.773652596367082*^9, 
    3.77365259670302*^9}, {3.780762355521722*^9, 3.7807623562948093`*^9}, {
    3.780762388151534*^9, 3.780762394758325*^9}, 3.7807624510061407`*^9},
- CellLabel->"In[11]:=",ExpressionUUID->"502b3c63-2153-4ebc-bfd3-3eb1898fa80f"]
+ CellLabel->
+  "In[446]:=",ExpressionUUID->"502b3c63-2153-4ebc-bfd3-3eb1898fa80f"]
 }, Closed]],
 
 Cell[CellGroupData[{
@@ -1666,7 +1705,8 @@ Cell[BoxData[
    3.7801286697950087`*^9}, {3.7801287862354717`*^9, 3.780128804946821*^9}, {
    3.780140844120616*^9, 3.78014084698946*^9}, {3.780179457470923*^9, 
    3.7801794656804733`*^9}, {3.780657190457402*^9, 3.780657199679256*^9}},
- CellLabel->"In[17]:=",ExpressionUUID->"650e92a0-4dd9-4276-8a26-f506c5beb072"],
+ CellLabel->
+  "In[452]:=",ExpressionUUID->"650e92a0-4dd9-4276-8a26-f506c5beb072"],
 
 Cell["\<\
 Using the above information now we can simply plot the dynamics between any \
@@ -1787,7 +1827,8 @@ Cell[BoxData[
    3.7806566474989443`*^9, 3.7806567503108387`*^9}, {3.780657064602413*^9, 
    3.780657069136133*^9}, {3.780657172953362*^9, 3.780657176804534*^9}, 
    3.780761463430374*^9, {3.8045891075832663`*^9, 3.804589107730089*^9}},
- CellLabel->"In[18]:=",ExpressionUUID->"66a287ab-91a1-4df7-af3b-d7906c12b917"],
+ CellLabel->
+  "In[453]:=",ExpressionUUID->"66a287ab-91a1-4df7-af3b-d7906c12b917"],
 
 Cell[BoxData[
  RowBox[{
@@ -1881,11 +1922,12 @@ Cell[BoxData[
           RowBox[{
            RowBox[{"23", " ", "\[Degree]"}], "-", 
            FractionBox["\[Pi]", "4"]}], "]"}]}], "}"}]}], "}"}]}], ";"}], 
-   "\[IndentingNewLine]", 
+   "\n", 
    RowBox[{"(*", 
     RowBox[{
     "Generate", " ", "all", " ", "edges", " ", "and", " ", "internal", " ", 
-     "diagonals", " ", "as", " ", "Line", " ", "objects"}], "*)"}], "\n", 
+     "diagonals", " ", "as", " ", "Line", " ", "objects"}], "*)"}], 
+   "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"lines", "=", 
      RowBox[{"Line", "/@", 
@@ -1901,12 +1943,11 @@ Cell[BoxData[
     RowBox[{"linepairs", "=", 
      RowBox[{"Subsets", "[", 
       RowBox[{"lines", ",", 
-       RowBox[{"{", "2", "}"}]}], "]"}]}], ";"}], "\n", 
+       RowBox[{"{", "2", "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
    RowBox[{"(*", 
     RowBox[{
     "Find", " ", "unique", " ", "intersection", " ", "points", " ", "between",
-      " ", "lines", " ", "in", " ", "each", " ", "pair"}], "*)"}], 
-   "\[IndentingNewLine]", 
+      " ", "lines", " ", "in", " ", "each", " ", "pair"}], "*)"}], "\n", 
    RowBox[{
     RowBox[{"intersectionpts", "=", 
      RowBox[{
@@ -2009,7 +2050,8 @@ Cell[BoxData[
    3.780180263514783*^9}, {3.78018033854737*^9, 3.780180416859058*^9}, {
    3.780180930382077*^9, 3.780180930702422*^9}, 3.7801819112483273`*^9, {
    3.7807628801710176`*^9, 3.780762887410343*^9}},
- CellLabel->"In[19]:=",ExpressionUUID->"15ad7a33-2286-44b4-97fa-4610d2e013e8"]
+ CellLabel->
+  "In[454]:=",ExpressionUUID->"15ad7a33-2286-44b4-97fa-4610d2e013e8"]
 }, Closed]]
 }, Open  ]],
 
@@ -2505,18 +2547,18 @@ Cell[BoxData[
    3.780762149539847*^9, 3.7807621894013643`*^9}, {3.780762586528924*^9, 
    3.780762626267061*^9}},
  CellLabel->
-  "In[158]:=",ExpressionUUID->"4331bd30-68da-46d1-85bc-bbf4a43bee22"],
+  "In[463]:=",ExpressionUUID->"4331bd30-68da-46d1-85bc-bbf4a43bee22"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{$CellContext`i$$ = 8, $CellContext`j$$ = 4, 
+   DynamicModuleBox[{$CellContext`i$$ = 1, $CellContext`j$$ = 4, 
     Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
        Hold[$CellContext`i$$], 1, "Strategy"}, {1, 2, 3, 4, 5, 6, 7, 8}}, {{
        Hold[$CellContext`j$$], 4, "against strategy"}, {1, 2, 3, 4, 5, 6, 7, 
-      8}}}, Typeset`size$$ = {540., {166., 173.}}, Typeset`update$$ = 0, 
+      8}}}, Typeset`size$$ = {207., {5., 14.}}, Typeset`update$$ = 0, 
     Typeset`initDone$$, Typeset`skipInitDone$$ = True}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
@@ -2531,7 +2573,7 @@ Cell[BoxData[
        "Specifications" :> {{{$CellContext`i$$, 1, "Strategy"}, {1, 2, 3, 4, 
          5, 6, 7, 8}}, {{$CellContext`j$$, 4, "against strategy"}, {1, 2, 3, 
          4, 5, 6, 7, 8}}}, "Options" :> {}, "DefaultOptions" :> {}],
-     ImageSizeCache->{606., {250., 259.}},
+     ImageSizeCache->{273., {94., 102.}},
      SingleEvaluation->True],
     Deinitialization:>None,
     DynamicModuleValues:>{},
@@ -2548,9 +2590,13 @@ Cell[BoxData[
    3.804592151171218*^9}, 3.805010384755973*^9, 3.80501126056138*^9, {
    3.8050112959774837`*^9, 3.805011315990644*^9}, {3.805011348230938*^9, 
    3.8050113685986223`*^9}, 3.805011938235718*^9, 3.8050346348862123`*^9, 
-   3.805035087840222*^9, 3.8050353204229183`*^9},
+   3.805035087840222*^9, 3.8050353204229183`*^9, {3.847103626254374*^9, 
+   3.84710367131627*^9}, 3.847104234499851*^9, 3.8471043883837757`*^9, 
+   3.847104523050913*^9, 3.84710467265201*^9, {3.847104807489222*^9, 
+   3.847104819754438*^9}, 3.847105871541686*^9, 3.847105918124722*^9, 
+   3.8471059668515177`*^9, 3.847106270802093*^9},
  CellLabel->
-  "Out[158]=",ExpressionUUID->"49da26d7-6dfa-4de9-8d46-c45e408f0cb8"]
+  "Out[463]=",ExpressionUUID->"a371251e-0951-4dc4-8ec3-f684c355ca79"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2573,9 +2619,11 @@ Cell[BoxData[
        "\"\<Change over time in\\n the frequency of (H,H,1)\>\"", ",", "14", 
         ",", "Black"}], "]"}]}], "}"}]}]}], "]"}]], "Input",
  CellChangeTimes->{{3.805010532984207*^9, 3.8050106471090927`*^9}, 
-   3.805010728784321*^9},
+   3.805010728784321*^9, {3.847104832836097*^9, 3.847104838193252*^9}, {
+   3.847104953060071*^9, 3.847104967485358*^9}, {3.847105134860183*^9, 
+   3.847105135507266*^9}, 3.847106040236492*^9},
  CellLabel->
-  "In[159]:=",ExpressionUUID->"c4c9bb88-4ab8-4ef2-923c-620940ab20c9"],
+  "In[464]:=",ExpressionUUID->"c4c9bb88-4ab8-4ef2-923c-620940ab20c9"],
 
 Cell[BoxData[
  GraphicsBox[{GraphicsComplexBox[CompressedData["
@@ -2781,7 +2829,7 @@ L+cccixacZS1cjysz8j3MZwzrTXgFX1h9tOao62VZ6s+M/sZQRvGW6/AttyL
 fJaRtKUd7elARzrRmQk+X5FHcr35DkYxKe8Nr+Ze5XzyrJrb8rG+hnl6b37W
 l8nRbMkzYP4P+JzC9w==
          "]]},
-       Annotation[#, "Charting`Private`Tag$66087#1"]& ]}}], {}},
+       Annotation[#, "Charting`Private`Tag$153114#1"]& ]}}], {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{None, None},
@@ -2833,9 +2881,15 @@ l8nRbMkzYP4P+JzC9w==
    3.8050106333353453`*^9, 3.805010647574914*^9}, 3.805010730715138*^9, 
    3.805011260685362*^9, {3.805011296088348*^9, 3.8050113161028748`*^9}, {
    3.805011348354311*^9, 3.805011368714281*^9}, 3.805011938688995*^9, 
-   3.805034635019102*^9, 3.805035087946891*^9, 3.8050353205315447`*^9},
+   3.805034635019102*^9, 3.805035087946891*^9, 3.8050353205315447`*^9, {
+   3.8471036263962*^9, 3.847103671428924*^9}, 3.847104234606955*^9, 
+   3.847104388500779*^9, 3.847104523174193*^9, 3.8471046727676983`*^9, {
+   3.847104807609933*^9, 3.8471048384424887`*^9}, {3.847104953296328*^9, 
+   3.847104967805735*^9}, 3.847105135832715*^9, 3.847105871659618*^9, 
+   3.847105918243968*^9, 3.8471059669758663`*^9, 3.8471060409512777`*^9, 
+   3.847106270918592*^9},
  CellLabel->
-  "Out[159]=",ExpressionUUID->"30fa255a-bd8a-4928-8842-d276b5688f38"]
+  "Out[464]=",ExpressionUUID->"7a6762b9-747d-42e7-a4b3-6c106b0c7a77"]
 }, Open  ]],
 
 Cell[TextData[{
@@ -3320,19 +3374,230 @@ Cell[BoxData[
   3.7801792677810583`*^9}, {3.78017980766772*^9, 3.7801798156792297`*^9}, {
   3.7801824961558037`*^9, 3.7801825136394567`*^9}, {3.78018256012421*^9, 
   3.78018257063407*^9}, {3.780382329726932*^9, 3.780382377589126*^9}},
- CellLabel->"In[28]:=",ExpressionUUID->"99168de8-8f17-490e-b01e-e2517b06fb3f"],
+ CellLabel->
+  "In[465]:=",ExpressionUUID->"99168de8-8f17-490e-b01e-e2517b06fb3f"],
 
-Cell[BoxData[""], "Input",
- CellChangeTimes->{{3.844854002809531*^9, 
-  3.84485400281067*^9}},ExpressionUUID->"628d530a-4dca-4c99-b98c-\
-a1dbf1b16300"]
-}, Open  ]],
+Cell[BoxData[
+ GraphicsBox[{{
+    LineBox[NCache[{{-Cos[23 Degree], -Sin[23 Degree]}, {-
+        Cos[23 Degree + Rational[-1, 4] Pi], -
+        Sin[23 Degree + 
+          Rational[-1, 4] 
+           Pi]}}, {{-0.9205048534524404, -0.39073112848927377`}, \
+{-0.9271838545667874, 0.374606593415912}}]], 
+    LineBox[NCache[{{-Cos[23 Degree], -Sin[23 Degree]}, {-
+        Cos[23 Degree + Rational[1, 4] Pi], -
+        Sin[23 Degree + 
+          Rational[1, 4] 
+           Pi]}}, {{-0.9205048534524404, -0.39073112848927377`}, \
+{-0.3746065934159122, -0.9271838545667873}}]], 
+    LineBox[NCache[{{-Cos[23 Degree], -Sin[23 Degree]}, {
+       Sin[23 Degree], -
+        Cos[23 Degree]}}, {{-0.9205048534524404, -0.39073112848927377`}, {
+      0.39073112848927377`, -0.9205048534524404}}]], 
+    LineBox[NCache[{{-Cos[23 Degree], -Sin[23 Degree]}, {
+       Cos[23 Degree + Rational[1, 4] Pi], Sin[
+        23 Degree + 
+         Rational[1, 4] 
+          Pi]}}, {{-0.9205048534524404, -0.39073112848927377`}, {
+      0.3746065934159122, 0.9271838545667873}}]], 
+    LineBox[NCache[{{-Cos[23 Degree], -Sin[23 Degree]}, {-Sin[23 Degree], Cos[
+        23 Degree]}}, {{-0.9205048534524404, -0.39073112848927377`}, \
+{-0.39073112848927377`, 0.9205048534524404}}]], 
+    LineBox[NCache[{{-Cos[23 Degree], -Sin[23 Degree]}, {
+       Cos[23 Degree], Sin[
+        23 Degree]}}, {{-0.9205048534524404, -0.39073112848927377`}, {
+      0.9205048534524404, 0.39073112848927377`}}]], 
+    LineBox[NCache[{{-Cos[23 Degree], -Sin[23 Degree]}, {
+       Cos[23 Degree + Rational[-1, 4] Pi], Sin[
+        23 Degree + 
+         Rational[-1, 4] 
+          Pi]}}, {{-0.9205048534524404, -0.39073112848927377`}, {
+      0.9271838545667874, -0.374606593415912}}]], 
+    LineBox[NCache[{{-Cos[23 Degree + Rational[-1, 4] Pi], -
+        Sin[23 Degree + Rational[-1, 4] Pi]}, {-
+        Cos[23 Degree + Rational[1, 4] Pi], -
+        Sin[23 Degree + Rational[1, 4] Pi]}}, {{-0.9271838545667874, 
+      0.374606593415912}, {-0.3746065934159122, -0.9271838545667873}}]], 
+    LineBox[NCache[{{-Cos[23 Degree + Rational[-1, 4] Pi], -
+        Sin[23 Degree + Rational[-1, 4] Pi]}, {
+       Sin[23 Degree], -Cos[23 Degree]}}, {{-0.9271838545667874, 
+      0.374606593415912}, {0.39073112848927377`, -0.9205048534524404}}]], 
+    LineBox[NCache[{{-Cos[23 Degree + Rational[-1, 4] Pi], -
+        Sin[23 Degree + Rational[-1, 4] Pi]}, {
+       Cos[23 Degree + Rational[1, 4] Pi], Sin[
+        23 Degree + Rational[1, 4] Pi]}}, {{-0.9271838545667874, 
+      0.374606593415912}, {0.3746065934159122, 0.9271838545667873}}]], 
+    LineBox[NCache[{{-Cos[23 Degree + Rational[-1, 4] Pi], -
+        Sin[23 Degree + Rational[-1, 4] Pi]}, {-Sin[23 Degree], Cos[
+        23 Degree]}}, {{-0.9271838545667874, 
+      0.374606593415912}, {-0.39073112848927377`, 0.9205048534524404}}]], 
+    LineBox[NCache[{{-Cos[23 Degree + Rational[-1, 4] Pi], -
+        Sin[23 Degree + Rational[-1, 4] Pi]}, {
+       Cos[23 Degree], Sin[23 Degree]}}, {{-0.9271838545667874, 
+      0.374606593415912}, {0.9205048534524404, 0.39073112848927377`}}]], 
+    LineBox[NCache[{{-Cos[23 Degree + Rational[-1, 4] Pi], -
+        Sin[23 Degree + Rational[-1, 4] Pi]}, {
+       Cos[23 Degree + Rational[-1, 4] Pi], Sin[
+        23 Degree + Rational[-1, 4] Pi]}}, {{-0.9271838545667874, 
+      0.374606593415912}, {0.9271838545667874, -0.374606593415912}}]], 
+    LineBox[NCache[{{-Cos[23 Degree + Rational[1, 4] Pi], -
+        Sin[23 Degree + Rational[1, 4] Pi]}, {
+       Sin[23 Degree], -
+        Cos[23 Degree]}}, {{-0.3746065934159122, -0.9271838545667873}, {
+      0.39073112848927377`, -0.9205048534524404}}]], 
+    LineBox[NCache[{{-Cos[23 Degree + Rational[1, 4] Pi], -
+        Sin[23 Degree + Rational[1, 4] Pi]}, {
+       Cos[23 Degree + Rational[1, 4] Pi], Sin[
+        23 Degree + 
+         Rational[1, 4] Pi]}}, {{-0.3746065934159122, -0.9271838545667873}, {
+      0.3746065934159122, 0.9271838545667873}}]], 
+    LineBox[NCache[{{-Cos[23 Degree + Rational[1, 4] Pi], -
+        Sin[23 Degree + Rational[1, 4] Pi]}, {-Sin[23 Degree], Cos[
+        23 Degree]}}, {{-0.3746065934159122, -0.9271838545667873}, \
+{-0.39073112848927377`, 0.9205048534524404}}]], 
+    LineBox[NCache[{{-Cos[23 Degree + Rational[1, 4] Pi], -
+        Sin[23 Degree + Rational[1, 4] Pi]}, {
+       Cos[23 Degree], Sin[
+        23 Degree]}}, {{-0.3746065934159122, -0.9271838545667873}, {
+      0.9205048534524404, 0.39073112848927377`}}]], 
+    LineBox[NCache[{{-Cos[23 Degree + Rational[1, 4] Pi], -
+        Sin[23 Degree + Rational[1, 4] Pi]}, {
+       Cos[23 Degree + Rational[-1, 4] Pi], Sin[
+        23 Degree + 
+         Rational[-1, 4] Pi]}}, {{-0.3746065934159122, -0.9271838545667873}, {
+      0.9271838545667874, -0.374606593415912}}]], 
+    LineBox[NCache[{{Sin[23 Degree], -Cos[23 Degree]}, {
+       Cos[23 Degree + Rational[1, 4] Pi], Sin[
+        23 Degree + Rational[1, 4] Pi]}}, {{
+      0.39073112848927377`, -0.9205048534524404}, {0.3746065934159122, 
+      0.9271838545667873}}]], 
+    LineBox[NCache[{{
+       Sin[23 Degree], -Cos[23 Degree]}, {-Sin[23 Degree], Cos[
+        23 Degree]}}, {{
+      0.39073112848927377`, -0.9205048534524404}, {-0.39073112848927377`, 
+      0.9205048534524404}}]], 
+    LineBox[NCache[{{Sin[23 Degree], -Cos[23 Degree]}, {
+       Cos[23 Degree], Sin[23 Degree]}}, {{
+      0.39073112848927377`, -0.9205048534524404}, {0.9205048534524404, 
+      0.39073112848927377`}}]], 
+    LineBox[NCache[{{Sin[23 Degree], -Cos[23 Degree]}, {
+       Cos[23 Degree + Rational[-1, 4] Pi], Sin[
+        23 Degree + Rational[-1, 4] Pi]}}, {{
+      0.39073112848927377`, -0.9205048534524404}, {
+      0.9271838545667874, -0.374606593415912}}]], 
+    LineBox[NCache[{{
+       Cos[23 Degree + Rational[1, 4] Pi], Sin[
+        23 Degree + Rational[1, 4] Pi]}, {-Sin[23 Degree], Cos[
+        23 Degree]}}, {{0.3746065934159122, 
+      0.9271838545667873}, {-0.39073112848927377`, 0.9205048534524404}}]], 
+    LineBox[NCache[{{
+       Cos[23 Degree + Rational[1, 4] Pi], Sin[
+        23 Degree + Rational[1, 4] Pi]}, {Cos[23 Degree], Sin[23 Degree]}}, {{
+      0.3746065934159122, 0.9271838545667873}, {0.9205048534524404, 
+      0.39073112848927377`}}]], 
+    LineBox[NCache[{{
+       Cos[23 Degree + Rational[1, 4] Pi], Sin[
+        23 Degree + Rational[1, 4] Pi]}, {
+       Cos[23 Degree + Rational[-1, 4] Pi], Sin[
+        23 Degree + Rational[-1, 4] Pi]}}, {{0.3746065934159122, 
+      0.9271838545667873}, {0.9271838545667874, -0.374606593415912}}]], 
+    LineBox[NCache[{{-Sin[23 Degree], Cos[23 Degree]}, {
+       Cos[23 Degree], Sin[23 Degree]}}, {{-0.39073112848927377`, 
+      0.9205048534524404}, {0.9205048534524404, 0.39073112848927377`}}]], 
+    LineBox[NCache[{{-Sin[23 Degree], Cos[23 Degree]}, {
+       Cos[23 Degree + Rational[-1, 4] Pi], Sin[
+        23 Degree + Rational[-1, 4] Pi]}}, {{-0.39073112848927377`, 
+      0.9205048534524404}, {0.9271838545667874, -0.374606593415912}}]], 
+    LineBox[NCache[{{Cos[23 Degree], Sin[23 Degree]}, {
+       Cos[23 Degree + Rational[-1, 4] Pi], Sin[
+        23 Degree + Rational[-1, 4] Pi]}}, {{0.9205048534524404, 
+      0.39073112848927377`}, {0.9271838545667874, -0.374606593415912}}]]}, 
+   {GrayLevel[0], PointSize[0.03], 
+    PointBox[{-0.4292584817260343, -0.5892075460131081}], 
+    PointBox[{-0.32951737744409804`, 0.21066209625075177`}], 
+    PointBox[{-0.586768319571285, 0.4352957790246959}], 
+    PointBox[{-0.0804121474374887, -0.03413293150454766}], 
+    PointBox[{-0.07736437419730191, -0.38337315299777713`}], 
+    PointBox[{-0.5790819930581652, -0.4454700005668279}], 
+    PointBox[{-0.32579062982676177`, -0.21638088259243032`}], 
+    PointBox[{-0.4394761931490424, 0.5816262133602255}], 
+    PointBox[{-0.08404337531164896, 0.38196456890740865`}], 
+    PointBox[{-0.08099560207146228, 0.03272434741417912}], 
+    PointBox[{-0.03272434741417912, -0.08099560207146228}], 
+    PointBox[{-0.382668860952593, -0.0033395005571734693`}], 
+    PointBox[{0.21638088259243016`, -0.32579062982676177`}], 
+    PointBox[{-0.09119344045446548, -0.8068821085520926}], 
+    PointBox[{0.382668860952593, 0.0033395005571734693`}], 
+    PointBox[{-0.03413293150454766, 0.0804121474374887}], 
+    PointBox[{0.6729285192044603, -0.22204180162490061`}], 
+    PointBox[{0.6689508651635585, 0.23375220560342502`}], 
+    PointBox[{-0.10526158575720229`, 0.8051676715115135}], 
+    PointBox[{0.21066209625075188`, 0.32951737744409804`}]}, 
+   {GrayLevel[1], PointSize[
+    0.02], {PointBox[{-0.4292584817260343, -0.5892075460131081}], 
+     PointBox[{-0.32951737744409804`, 0.21066209625075177`}], 
+     PointBox[{-0.586768319571285, 0.4352957790246959}], 
+     PointBox[{-0.0804121474374887, -0.03413293150454766}], 
+     PointBox[{-0.07736437419730191, -0.38337315299777713`}], 
+     PointBox[{-0.5790819930581652, -0.4454700005668279}], 
+     PointBox[{-0.32579062982676177`, -0.21638088259243032`}], 
+     PointBox[{-0.4394761931490424, 0.5816262133602255}], 
+     PointBox[{-0.08404337531164896, 0.38196456890740865`}], 
+     PointBox[{-0.08099560207146228, 0.03272434741417912}], 
+     PointBox[{-0.03272434741417912, -0.08099560207146228}], 
+     PointBox[{-0.382668860952593, -0.0033395005571734693`}], 
+     PointBox[{0.21638088259243016`, -0.32579062982676177`}], 
+     PointBox[{-0.09119344045446548, -0.8068821085520926}], 
+     PointBox[{0.382668860952593, 0.0033395005571734693`}], 
+     PointBox[{-0.03413293150454766, 0.0804121474374887}], 
+     PointBox[{0.6729285192044603, -0.22204180162490061`}], 
+     PointBox[{0.6689508651635585, 0.23375220560342502`}], 
+     PointBox[{-0.10526158575720229`, 0.8051676715115135}], 
+     PointBox[{0.21066209625075188`, 0.32951737744409804`}]}, 
+    {PointSize[0.05], 
+     PointBox[NCache[{{-Cos[23 Degree], -Sin[23 Degree]}, {-
+         Cos[23 Degree + Rational[-1, 4] Pi], -
+         Sin[23 Degree + Rational[-1, 4] Pi]}, {-
+         Cos[23 Degree + Rational[1, 4] Pi], -
+         Sin[23 Degree + Rational[1, 4] Pi]}, {
+        Sin[23 Degree], -Cos[23 Degree]}, {
+        Cos[23 Degree + Rational[1, 4] Pi], Sin[
+         23 Degree + Rational[1, 4] Pi]}, {-Sin[23 Degree], Cos[23 Degree]}, {
+        Cos[23 Degree], Sin[23 Degree]}, {
+        Cos[23 Degree + Rational[-1, 4] Pi], Sin[
+         23 Degree + 
+          Rational[-1, 4] 
+           Pi]}}, {{-0.9205048534524404, -0.39073112848927377`}, \
+{-0.9271838545667874, 
+       0.374606593415912}, {-0.3746065934159122, -0.9271838545667873}, {
+       0.39073112848927377`, -0.9205048534524404}, {0.3746065934159122, 
+       0.9271838545667873}, {-0.39073112848927377`, 0.9205048534524404}, {
+       0.9205048534524404, 0.39073112848927377`}, {
+       0.9271838545667874, -0.374606593415912}}],
+      VertexColors->{
+        RGBColor[
+        0.6980392156862745, 0.13333333333333333`, 0.13333333333333333`], 
+        RGBColor[
+        0.8627450980392157, 0.0784313725490196, 0.23529411764705882`], 
+        RGBColor[1., 0.27058823529411763`, 0.00392156862745098], 
+        RGBColor[0., 0.7490196078431373, 0.7490196078431373], 
+        RGBColor[
+        0.39215686274509803`, 0.5843137254901961, 0.9294117647058824], 
+        RGBColor[0.9411764705882353, 0.5019607843137255, 0.5019607843137255], 
+        
+        RGBColor[0.00784313725490196, 0., 0.5450980392156862], 
+        RGBColor[0., 0.5450980392156862, 0.5450980392156862]}]}}}]], "Output",\
 
-Cell[BoxData[""], "Input",
- CellChangeTimes->{
-  3.844854001251663*^9},ExpressionUUID->"f46b475f-1af5-4bfd-beda-\
-e188e329feda"]
-}, Closed]]
+ CellChangeTimes->{{3.847103626421468*^9, 3.8471036714667473`*^9}, 
+   3.847104234640821*^9, 3.8471043885372477`*^9, 3.847104523212427*^9, {
+   3.847104645543775*^9, 3.847104672802059*^9}, {3.84710480765162*^9, 
+   3.847104819887458*^9}, 3.847105871698176*^9, 3.847105918276833*^9, 
+   3.847105967016238*^9, 3.847106270955606*^9},
+ CellLabel->
+  "Out[465]=",ExpressionUUID->"ac45ccf0-ed25-4dfe-9b87-1d94f322a3db"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 },
 WindowSize->{Full, Full},
@@ -3360,78 +3625,77 @@ Cell[580, 22, 180, 3, 146, "Title",ExpressionUUID->"ab51f651-a92d-4ef4-841d-9ddd
 Cell[763, 27, 191, 3, 79, "Subtitle",ExpressionUUID->"ebb09795-c8ad-4ed7-8120-040bf096fd1f"],
 Cell[CellGroupData[{
 Cell[979, 34, 162, 3, 101, "Section",ExpressionUUID->"913e0308-b1e9-44fc-b707-b55cbb56ea09"],
-Cell[1144, 39, 1389, 37, 125, "Text",ExpressionUUID->"f3b7752b-bfed-48dc-9091-79e488519def"],
+Cell[1144, 39, 1389, 37, 126, "Text",ExpressionUUID->"f3b7752b-bfed-48dc-9091-79e488519def"],
 Cell[CellGroupData[{
 Cell[2558, 80, 191, 3, 81, "Subsection",ExpressionUUID->"b7249f4a-f894-495d-aaaf-84c1d4f222b5"],
 Cell[2752, 85, 719, 20, 55, "Text",ExpressionUUID->"f38fe7a8-4434-4abd-982a-a91a094a15f7"],
-Cell[3474, 107, 623, 18, 78, "Input",ExpressionUUID->"ad970db9-1614-4e37-997f-cd92de5e789f"],
-Cell[4100, 127, 355, 7, 53, "Text",ExpressionUUID->"bdb31e32-1ff6-49e1-a4eb-071b499661aa"],
-Cell[4458, 136, 1199, 28, 109, "Input",ExpressionUUID->"fb155fde-238e-4f29-99c5-9f752a2d13d7"],
+Cell[3474, 107, 628, 19, 78, "Input",ExpressionUUID->"ad970db9-1614-4e37-997f-cd92de5e789f"],
+Cell[4105, 128, 355, 7, 53, "Text",ExpressionUUID->"bdb31e32-1ff6-49e1-a4eb-071b499661aa"],
+Cell[4463, 137, 1204, 29, 109, "Input",ExpressionUUID->"fb155fde-238e-4f29-99c5-9f752a2d13d7"],
 Cell[CellGroupData[{
-Cell[5682, 168, 1542, 41, 113, "Input",ExpressionUUID->"562b925e-fc91-4df0-bfc4-594f32f231db"],
-Cell[7227, 211, 34956, 762, 566, "Output",ExpressionUUID->"110ca4fa-94f6-4b25-8679-1e88d12dfeb9"]
-}, {2}]],
-Cell[42195, 976, 333, 7, 53, "Text",ExpressionUUID->"5fc1b401-bf4a-4c15-86b0-f8227465639d"],
-Cell[42531, 985, 3225, 47, 46, "Input",ExpressionUUID->"0b3b39dc-7bc0-4f6e-93e8-4d940ff52612"]
+Cell[5692, 170, 1542, 41, 113, "Input",ExpressionUUID->"562b925e-fc91-4df0-bfc4-594f32f231db"],
+Cell[7237, 213, 35681, 787, 566, "Output",ExpressionUUID->"0d449558-0997-499b-98f4-da2580c298f6"]
+}, Open  ]],
+Cell[42933, 1003, 333, 7, 88, "Text",ExpressionUUID->"5fc1b401-bf4a-4c15-86b0-f8227465639d"],
+Cell[43269, 1012, 3497, 52, 46, "Input",ExpressionUUID->"0b3b39dc-7bc0-4f6e-93e8-4d940ff52612"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[45805, 1038, 237, 4, 101, "Section",ExpressionUUID->"bee32360-89c7-434b-b96b-6877d162f0fd"],
+Cell[46815, 1070, 237, 4, 101, "Section",ExpressionUUID->"bee32360-89c7-434b-b96b-6877d162f0fd"],
 Cell[CellGroupData[{
-Cell[46067, 1046, 189, 3, 67, "Subsubsection",ExpressionUUID->"2b7ad658-b7cf-454d-9a8b-a567ce6dd656"],
-Cell[46259, 1051, 1681, 32, 70, "Input",ExpressionUUID->"6eb38568-c4bb-4ed1-aae1-b9c38250862d"],
-Cell[47943, 1085, 471, 13, 54, "Text",ExpressionUUID->"1d96db77-ebfa-449a-bc6b-413a99edad2b"]
+Cell[47077, 1078, 189, 3, 67, "Subsubsection",ExpressionUUID->"2b7ad658-b7cf-454d-9a8b-a567ce6dd656"],
+Cell[47269, 1083, 1732, 34, 70, "Input",ExpressionUUID->"6eb38568-c4bb-4ed1-aae1-b9c38250862d"],
+Cell[49004, 1119, 471, 13, 54, "Text",ExpressionUUID->"1d96db77-ebfa-449a-bc6b-413a99edad2b"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[48451, 1103, 273, 6, 53, "Subsubsection",ExpressionUUID->"72cdcea9-8139-45ab-afba-043bd04e9a0d"],
-Cell[48727, 1111, 630, 11, 46, "Input",ExpressionUUID->"8be33cf1-0363-4e03-8e66-56e2458cd8bd"],
-Cell[49360, 1124, 382, 7, 53, "Text",ExpressionUUID->"72e5736d-0e40-4934-9a0f-35878292c39d"]
+Cell[49512, 1137, 273, 6, 53, "Subsubsection",ExpressionUUID->"72cdcea9-8139-45ab-afba-043bd04e9a0d"],
+Cell[49788, 1145, 635, 12, 46, "Input",ExpressionUUID->"8be33cf1-0363-4e03-8e66-56e2458cd8bd"],
+Cell[50426, 1159, 382, 7, 53, "Text",ExpressionUUID->"72e5736d-0e40-4934-9a0f-35878292c39d"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[49779, 1136, 278, 4, 53, "Subsubsection",ExpressionUUID->"98a65bbc-733d-4012-b64a-91519654dd33"],
-Cell[50060, 1142, 293, 6, 53, "Text",ExpressionUUID->"7e70239d-696c-4f46-ac32-928703f48c9c"],
-Cell[50356, 1150, 4704, 104, 234, "Input",ExpressionUUID->"c7e2772b-0648-4e79-b272-87c3935e67ff"]
+Cell[50845, 1171, 278, 4, 53, "Subsubsection",ExpressionUUID->"98a65bbc-733d-4012-b64a-91519654dd33"],
+Cell[51126, 1177, 293, 6, 88, "Text",ExpressionUUID->"7e70239d-696c-4f46-ac32-928703f48c9c"],
+Cell[51422, 1185, 4709, 105, 263, "Input",ExpressionUUID->"c7e2772b-0648-4e79-b272-87c3935e67ff"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[55097, 1259, 327, 5, 53, "Subsubsection",ExpressionUUID->"0593cf0c-7cea-4510-ba12-f5e83cabed39"],
-Cell[55427, 1266, 317, 6, 53, "Text",ExpressionUUID->"4010b94c-4811-4d36-aeef-56ec3a993d8a"],
-Cell[55747, 1274, 186, 3, 53, "Text",ExpressionUUID->"56471072-cc3b-4486-a3f8-90d3bc60fd63"],
-Cell[55936, 1279, 4303, 108, 279, "Input",ExpressionUUID->"8c3f8803-bf07-41f6-8a73-20de96121ca9"],
-Cell[60242, 1389, 301, 4, 53, "Text",ExpressionUUID->"0d99b9c8-11ef-4b9d-b6fa-07821326836e"],
-Cell[60546, 1395, 1415, 37, 109, "Input",ExpressionUUID->"2a1067be-9250-4055-bc46-aee0de5926e0"],
-Cell[61964, 1434, 407, 9, 53, "Text",ExpressionUUID->"eee49222-d17b-4071-a46a-199cd3db7a0d"],
-Cell[62374, 1445, 4483, 124, 264, "Input",ExpressionUUID->"502b3c63-2153-4ebc-bfd3-3eb1898fa80f"]
+Cell[56168, 1295, 327, 5, 53, "Subsubsection",ExpressionUUID->"0593cf0c-7cea-4510-ba12-f5e83cabed39"],
+Cell[56498, 1302, 317, 6, 88, "Text",ExpressionUUID->"4010b94c-4811-4d36-aeef-56ec3a993d8a"],
+Cell[56818, 1310, 186, 3, 53, "Text",ExpressionUUID->"56471072-cc3b-4486-a3f8-90d3bc60fd63"],
+Cell[57007, 1315, 4308, 109, 358, "Input",ExpressionUUID->"8c3f8803-bf07-41f6-8a73-20de96121ca9"],
+Cell[61318, 1426, 301, 4, 53, "Text",ExpressionUUID->"0d99b9c8-11ef-4b9d-b6fa-07821326836e"],
+Cell[61622, 1432, 1419, 38, 109, "Input",ExpressionUUID->"2a1067be-9250-4055-bc46-aee0de5926e0"],
+Cell[63044, 1472, 407, 9, 88, "Text",ExpressionUUID->"eee49222-d17b-4071-a46a-199cd3db7a0d"],
+Cell[63454, 1483, 4487, 125, 326, "Input",ExpressionUUID->"502b3c63-2153-4ebc-bfd3-3eb1898fa80f"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[66894, 1574, 369, 6, 53, "Subsubsection",ExpressionUUID->"bb42d70e-a0d3-4e67-aa3a-ba6d120e1384"],
-Cell[67266, 1582, 362, 7, 53, "Text",ExpressionUUID->"a65f06c1-e89b-4f19-a1b4-e105167507b6"],
-Cell[67631, 1591, 3593, 77, 202, "Input",ExpressionUUID->"650e92a0-4dd9-4276-8a26-f506c5beb072"],
-Cell[71227, 1670, 293, 7, 53, "Text",ExpressionUUID->"65867a5c-f8c1-4bbd-a2d0-3bf6fa8932ce"]
+Cell[67978, 1613, 369, 6, 53, "Subsubsection",ExpressionUUID->"bb42d70e-a0d3-4e67-aa3a-ba6d120e1384"],
+Cell[68350, 1621, 362, 7, 53, "Text",ExpressionUUID->"a65f06c1-e89b-4f19-a1b4-e105167507b6"],
+Cell[68715, 1630, 3597, 78, 264, "Input",ExpressionUUID->"650e92a0-4dd9-4276-8a26-f506c5beb072"],
+Cell[72315, 1710, 293, 7, 53, "Text",ExpressionUUID->"65867a5c-f8c1-4bbd-a2d0-3bf6fa8932ce"]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[71557, 1682, 416, 6, 53, "Subsubsection",ExpressionUUID->"a3bb5ae8-732c-4d52-81f7-7954da76c0af"],
-Cell[71976, 1690, 4073, 99, 210, "Input",ExpressionUUID->"66a287ab-91a1-4df7-af3b-d7906c12b917"],
-Cell[76052, 1791, 8346, 220, 522, "Input",ExpressionUUID->"15ad7a33-2286-44b4-97fa-4610d2e013e8"]
+Cell[72645, 1722, 416, 6, 53, "Subsubsection",ExpressionUUID->"a3bb5ae8-732c-4d52-81f7-7954da76c0af"],
+Cell[73064, 1730, 4077, 100, 307, "Input",ExpressionUUID->"66a287ab-91a1-4df7-af3b-d7906c12b917"],
+Cell[77144, 1832, 8350, 221, 635, "Input",ExpressionUUID->"15ad7a33-2286-44b4-97fa-4610d2e013e8"]
 }, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[84447, 2017, 155, 3, 101, "Section",ExpressionUUID->"026df24e-8215-4196-9b63-b00aab10f05d"],
-Cell[84605, 2022, 17661, 453, 89, "Text",ExpressionUUID->"027c633c-dbec-4281-9469-103c02745647"],
+Cell[85543, 2059, 155, 3, 101, "Section",ExpressionUUID->"026df24e-8215-4196-9b63-b00aab10f05d"],
+Cell[85701, 2064, 17661, 453, 89, "Text",ExpressionUUID->"027c633c-dbec-4281-9469-103c02745647"],
 Cell[CellGroupData[{
-Cell[102291, 2479, 1147, 28, 46, "Input",ExpressionUUID->"4331bd30-68da-46d1-85bc-bbf4a43bee22"],
-Cell[103441, 2509, 2281, 43, 537, "Output",ExpressionUUID->"49da26d7-6dfa-4de9-8d46-c45e408f0cb8"]
+Cell[103387, 2521, 1147, 28, 78, "Input",ExpressionUUID->"4331bd30-68da-46d1-85bc-bbf4a43bee22"],
+Cell[104537, 2551, 2563, 47, 224, "Output",ExpressionUUID->"a371251e-0951-4dc4-8ec3-f684c355ca79"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[105759, 2557, 776, 20, 78, "Input",ExpressionUUID->"c4c9bb88-4ab8-4ef2-923c-620940ab20c9"],
-Cell[106538, 2579, 14164, 258, 353, "Output",ExpressionUUID->"30fa255a-bd8a-4928-8842-d276b5688f38"]
+Cell[107137, 2603, 944, 22, 109, "Input",ExpressionUUID->"c4c9bb88-4ab8-4ef2-923c-620940ab20c9"],
+Cell[108084, 2627, 14553, 264, 353, "Output",ExpressionUUID->"7a6762b9-747d-42e7-a4b3-6c106b0c7a77"]
 }, Open  ]],
-Cell[120717, 2840, 17842, 459, 84, "Text",ExpressionUUID->"35875205-896f-482b-8ad7-70bd12305edf"],
+Cell[122652, 2894, 17842, 459, 84, "Text",ExpressionUUID->"35875205-896f-482b-8ad7-70bd12305edf"],
 Cell[CellGroupData[{
-Cell[138584, 3303, 1038, 19, 46, "Input",ExpressionUUID->"99168de8-8f17-490e-b01e-e2517b06fb3f"],
-Cell[139625, 3324, 151, 3, 46, InheritFromParent,ExpressionUUID->"628d530a-4dca-4c99-b98c-a1dbf1b16300"]
-}, Open  ]],
-Cell[139791, 3330, 128, 3, 46, "Input",ExpressionUUID->"f46b475f-1af5-4bfd-beda-e188e329feda"]
-}, Closed]]
+Cell[140519, 3357, 1042, 20, 78, "Input",ExpressionUUID->"99168de8-8f17-490e-b01e-e2517b06fb3f"],
+Cell[141564, 3379, 11757, 218, 566, "Output",ExpressionUUID->"ac45ccf0-ed25-4dfe-9b87-1d94f322a3db"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 }
 ]
